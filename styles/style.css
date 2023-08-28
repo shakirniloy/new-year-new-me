@@ -45,3 +45,33 @@
     font-weight: 600;
     margin-top: 14px;
 }
+
+/* failure section */
+.failure-section{
+    display: flex;
+    gap: 80px;
+    margin: 150px 300px 150px 200px;
+    align-items: center;
+}
+
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.failure-details li{
+    color:#444343;
+    line-height: 26px;
+}
+
+.failure-details ul{
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.fa-solid{
+    color: #16D887;
+}
