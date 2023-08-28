@@ -1,0 +1,47 @@
+/* common shared styles */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.paragraph-main{
+    color: #444343;
+    line-height: 26px;
+}
+
+.common-layout-margin{
+    margin: 0px 200px;
+}
+
+/* header styles */
+.header{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content-container{
+    max-width: 550px;
+    margin: 200px 200px 150px 0px;
+}
+
+.header-content-container > h1{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-us-btn{
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px 25px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 14px;
+}
