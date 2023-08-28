@@ -75,3 +75,38 @@
 .fa-solid{
     color: #16D887;
 }
+
+/* my plan styles */
+.plan-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-section > h2 {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.item{
+    text-align: center;
+}
+
+.item h4{
+    color: var(--dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0px 15px 0px;
+}
+
+.item p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plan-section{
+    margin-bottom: 130px;
+}
