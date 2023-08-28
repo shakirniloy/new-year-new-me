@@ -3,6 +3,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .paragraph-main{
     color: #444343;
     line-height: 26px;
@@ -109,4 +114,93 @@
 
 .plan-section{
     margin-bottom: 130px;
+}
+/* call section styles */
+.call-section{
+    padding: 50px 65px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+
+.call-section > h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 25px;
+}
+
+.call-section > button{
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
+/* footer styles */
+.footer{
+    background:#151414;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 > h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+}
+
+.col-1 > p {
+    color: #FFF;
+    line-height: 26px;
+}
+
+.col-1 p a{
+    color: #FFF;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.icon-container a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.col-1, .col-2{
+    width: 50%;
+}
+
+.col-2 h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.col-2 input[type="email"]{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 20px;
+    color: #F3F3F3;
+    font-size: 18px;
+    background-color: #151414;
+    margin-bottom: 15px;
+}
+
+.col-2 input[type="submit"]{
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 20px 35px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
 }
